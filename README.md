@@ -279,45 +279,6 @@ The application provides **8 synchronized visualizations** for comprehensive clo
 
 ---
 
-## 🛠️ Applications
-
-### Earth Observation Workflows
-- **Preprocessing:** Remove cloudy observations from time series
-- **Compositing:** Create cloud-free mosaics from multi-temporal data
-- **Quality Control:** Flag scenes requiring manual review
-
-### Vegetation Monitoring
-- **NDVI Calculation:** Ensure clear-sky NIR measurements
-- **Crop Health:** Accurate vegetation index computation
-- **Phenology:** Track seasonal changes without cloud contamination
-
-### Water Resource Management
-- **Reservoir Monitoring:** Water level estimation from optical imagery
-- **Flood Mapping:** Identify inundated areas in disaster response
-- **Coastal Analysis:** Shoreline detection and erosion monitoring
-
----
-
-## 🔍 Model Interpretability
-
-### Uncertainty Interpretation
-
-| Mean Uncertainty | Interpretation | Recommendation |
-|-----------------|----------------|----------------|
-| **< 0.05** | Very confident | Highly reliable, use directly |
-| **0.05 - 0.10** | Confident | Reliable, safe for most applications |
-| **0.10 - 0.20** | Moderate | Review high-stakes applications |
-| **> 0.20** | Low confidence | Manual verification recommended |
-
-### Common High-Uncertainty Cases
-- Thin cirrus clouds (semi-transparent)
-- Cloud shadows (can mimic water bodies)
-- Bright urban areas (high reflectance like clouds)
-- Snow/ice cover (spectral similarity to clouds)
-- Haze and atmospheric scattering
-
----
-
 ## ⚠️ Limitations & Future Work
 
 ### Current Limitations
