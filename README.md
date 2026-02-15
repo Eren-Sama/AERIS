@@ -171,7 +171,7 @@ The model achieves **0.70% Expected Calibration Error (ECE)**, indicating highly
 - 8-panel comprehensive visualization dashboard
 - Downloadable results and quality metrics
 
-### Model Weights
+### Model
 
 🤗 **HuggingFace Hub:** [https://huggingface.co/Eklavya16/aeris-cloud-detection](https://huggingface.co/Eklavya16/aeris-cloud-detection)
 
