@@ -1,3 +1,5 @@
+<div align="center">
+
 # AERIS 🛰️
 **Advanced Earth Remote-sensing Intelligence System for Cloud Detection**
 
@@ -20,6 +22,8 @@
     <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
   </a>
 </p>
+
+</div>
 
 ---
 
@@ -135,7 +139,7 @@ Mohajerani, S., & Saeedi, P. (2019). *Cloud-Net: An End-to-End Cloud Detection A
 | **Accuracy** | **95.8%** | Pixel-level accuracy |
 | **Precision** | 93.5% | Cloud pixels correctly identified |
 | **Recall** | 95.1% | Fraction of clouds detected |
-| **ECE** | **0.70%** | Expected Calibration Error |
+| **ECE** | **0.0070%** | Expected Calibration Error |
 
 ### Calibration Analysis
 
@@ -244,17 +248,8 @@ Loss = 0.5 × Dice Loss + 0.5 × BCE Loss
 - Weighted combination balances regional and pixel-wise objectives
 
 ### 3. Monte Carlo Dropout Inference
-```python
-# Pseudocode
-predictions = []
-for i in range(30):
-    enable_dropout(model)  # Keep dropout active
-    pred = model(image)
-    predictions.append(pred)
-
-mean_prediction = mean(predictions)  # Final output
-uncertainty = std(predictions)       # Confidence estimate
-```
+- Runs the model multiple times with dropout turned on to measure prediction stability  
+- Calculates confidence scores to detect uncertain or risky regions in the image
 
 ### 4. Calibration
 - Expected Calibration Error (ECE) = 0.70%
@@ -348,29 +343,6 @@ The application provides **8 synchronized visualizations** for comprehensive clo
 ### Remote Sensing
 - **Landsat 8:**  
   U.S. Geological Survey (2021). Landsat 8 Data Users Handbook. Version 5.0.
-
----
-
-## 🔧 Technical Requirements
-
-### For Inference (Streamlit App)
-```
-Python 3.8+
-torch >= 2.0.0
-torchvision >= 0.15.0
-segmentation-models-pytorch >= 0.3.0
-streamlit >= 1.25.0
-opencv-python >= 4.8.0
-numpy >= 1.24.0
-scipy >= 1.10.0
-matplotlib >= 3.7.0
-huggingface-hub >= 0.16.0
-```
-
-### Hardware
-- **Minimum:** CPU inference (slower)
-- **Recommended:** CUDA-enabled GPU for faster processing
-- **Memory:** 4GB RAM minimum, 8GB recommended
 
 ---
 
