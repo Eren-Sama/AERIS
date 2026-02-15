@@ -382,16 +382,6 @@ Model weights are available under **Apache 2.0**.
 
 ---
 
-## 🙏 Acknowledgments
-
-- **38-Cloud Dataset** creators for high-quality labeled Landsat 8 data
-- **U.S. Geological Survey** for Landsat 8 mission and open data policy
-- **PyTorch** and **Segmentation Models PyTorch** communities
-- **HuggingFace** for model hosting infrastructure
-- **Streamlit** for rapid deployment framework
-
----
-
 <p align="center">
   <i>Advancing Earth observation through deep learning and uncertainty-aware cloud detection</i>
 </p>
