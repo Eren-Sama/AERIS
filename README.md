@@ -18,7 +18,7 @@
     <a href="https://huggingface.co/Eklavya16/aeris-cloud-detection">
       <img src="https://img.shields.io/badge/Model_Weights-HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
     </a>
-    <a href="https://www.kaggle.com/datasets/sorour/38cloud">
+    <a href="https://www.kaggle.com/datasets/sorour/38cloud-cloud-segmentation-in-satellite-images">
       <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
     </a>
   </p>
@@ -367,7 +367,7 @@ The application provides **8 synchronized visualizations** for comprehensive clo
 **Links:**
 - 🌐 [Live Demo](https://aeris-cloud-detection.streamlit.app)
 - 🤗 [Model Hub](https://huggingface.co/Eklavya16/aeris-cloud-detection)
-- 📦 [Dataset](https://www.kaggle.com/datasets/sorour/38cloud)
+- 📦 [Dataset](https://www.kaggle.com/datasets/sorour/38cloud-cloud-segmentation-in-satellite-images)
 
 **Contributions Welcome!**  
 Issues, bug reports, and feature requests are appreciated. Please open an issue on GitHub for discussion.
