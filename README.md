@@ -362,7 +362,7 @@ The application provides **8 synchronized visualizations** for comprehensive clo
 
 ## 📧 Contact & Contributions
 
-**Developer:** Eklavya Singhal  
+**Developer:** Eklavya Mohan Agrawal
 
 **Links:**
 - 🌐 [Live Demo](https://aeris-cloud-detection.streamlit.app)
