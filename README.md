@@ -296,11 +296,6 @@ The application provides **8 synchronized visualizations** for comprehensive clo
 - **Flood Mapping:** Identify inundated areas in disaster response
 - **Coastal Analysis:** Shoreline detection and erosion monitoring
 
-### Climate Research
-- **Albedo Studies:** Surface reflectance requires cloud-free data
-- **Land Surface Temperature:** Thermal sensors affected by clouds
-- **Change Detection:** Multi-temporal analysis needs consistent conditions
-
 ---
 
 ## 🔍 Model Interpretability
