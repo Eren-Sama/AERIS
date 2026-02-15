@@ -1,27 +1,27 @@
 <div align="center">
 
-# AERIS 🛰️
-**Advanced Earth Remote-sensing Intelligence System for Cloud Detection**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/U--Net-Segmentation-00599C?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ResNet34-ImageNet-76B900?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
-</p>
-
-<p align="center">
-  <a href="https://aeris-cloud-detection.streamlit.app/">
-    <img src="https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  </a>
-  <a href="https://huggingface.co/Eklavya16/aeris-cloud-detection">
-    <img src="https://img.shields.io/badge/Model_Weights-HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  </a>
-  <a href="https://www.kaggle.com/datasets/sorour/38cloud">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
-  </a>
-</p>
+  # AERIS 🛰️
+  **Advanced Earth Remote-sensing Intelligence System for Cloud Detection**
+  
+  <p align="center">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+    <img src="https://img.shields.io/badge/U--Net-Segmentation-00599C?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/ResNet34-ImageNet-76B900?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  </p>
+  
+  <p align="center">
+    <a href="https://aeris-cloud-detection.streamlit.app/">
+      <img src="https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+    </a>
+    <a href="https://huggingface.co/Eklavya16/aeris-cloud-detection">
+      <img src="https://img.shields.io/badge/Model_Weights-HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
+    </a>
+    <a href="https://www.kaggle.com/datasets/sorour/38cloud">
+      <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+    </a>
+  </p>
 
 </div>
 
