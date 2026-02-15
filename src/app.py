@@ -110,7 +110,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("#### 🔗 RESOURCES")
     st.markdown("🤗 [Model Hub](https://huggingface.co/Eklavya16/aeris-cloud-detection)")
-    st.markdown("📦 [Dataset](https://www.kaggle.com/datasets/sorour/38cloud)")
+    st.markdown("📦 [Dataset](https://www.kaggle.com/datasets/sorour/38cloud-cloud-segmentation-in-satellite-images)")
 
 @st.cache_resource
 def load_model():
@@ -512,4 +512,5 @@ def main():
                     st.exception(e)
 
 if __name__ == "__main__":
+
     main()
