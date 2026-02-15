@@ -318,29 +318,6 @@ The application provides **8 synchronized visualizations** for comprehensive clo
 
 ---
 
-## 📚 References
-
-### Dataset
-- **38-Cloud Dataset:**  
-  Mohajerani, S., & Saeedi, P. (2019). Cloud-Net: An End-to-End Cloud Detection Algorithm for Landsat 8 Imagery. *IEEE IGARSS*.
-
-### Architecture
-- **U-Net:**  
-  Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. *MICCAI*.
-
-- **ResNet:**  
-  He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition. *CVPR*.
-
-### Uncertainty Quantification
-- **MC Dropout:**  
-  Gal, Y., & Ghahramani, Z. (2016). Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning. *ICML*.
-
-### Remote Sensing
-- **Landsat 8:**  
-  U.S. Geological Survey (2021). Landsat 8 Data Users Handbook. Version 5.0.
-
----
-
 ## ⚠️ Limitations & Future Work
 
 ### Current Limitations
